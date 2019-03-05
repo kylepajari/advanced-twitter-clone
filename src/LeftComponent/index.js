@@ -1,15 +1,18 @@
 import "./LeftComponent.css";
 import React, { Component } from "react";
-import Pic from "../Images/leftPic.PNG";
+import SideBar from "../Images/leftPic.PNG";
+import Messages from "../Images/leftpicBottom.png";
 
 class LeftComponent extends Component {
   render() {
     return (
       <div className="left">
         <div className="left-top">
-          <img src={Pic} alt="" />
+          <img src={SideBar} alt="" />
         </div>
-        <div className="left-bottom" />
+        <div className="left-bottom">
+          <img src={Messages} alt="" />
+        </div>
       </div>
     );
   }
